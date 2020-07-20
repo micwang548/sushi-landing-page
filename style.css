@@ -1,0 +1,28 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(lake.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+.btn {
+	border-radius: 300px;
+	padding: 1rem 2rem;
+	background-color: #0a0c0b;
+	border-color: #6baff4;
+	border-width: 3px;
+}
+
+.btn-primary:hover {
+	background-color: #3064f4;
+	border-color: #3064f4;
+}
